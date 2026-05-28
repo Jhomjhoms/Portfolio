@@ -29,6 +29,8 @@
   const closeBtn = document.getElementById('gallery-close');
   const mainImg = document.getElementById('gallery-main-img');
   const thumbs = document.getElementById('gallery-thumbs');
+  const prevBtn = document.getElementById('gallery-prev');
+  const nextBtn = document.getElementById('gallery-next');
 
   let currentImages = [];
 
@@ -66,6 +68,8 @@
     mainImg.src = src;
     mainImg.dataset.index = i;
     Array.from(thumbs.children).forEach((el, idx)=> el.classList.toggle('active', idx===i));
+    const activeThumb = thumbs.children[i];
+    if(activeThumb) activeThumb.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
   }
 
   document.querySelectorAll('.project-click').forEach(el=>{
@@ -77,6 +81,8 @@
 
   overlay.addEventListener('click', closeGallery);
   closeBtn.addEventListener('click', closeGallery);
+  prevBtn?.addEventListener('click', ()=> thumbs.scrollBy({left:-180,behavior:'smooth'}));
+  nextBtn?.addEventListener('click', ()=> thumbs.scrollBy({left:180,behavior:'smooth'}));
 
   mainImg.addEventListener('click', ()=>{
     if(document.fullscreenElement) document.exitFullscreen?.();
