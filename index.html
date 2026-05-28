@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jhomel Andes' Software Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Software portfolio showcasing machine learning, software engineering, data systems, and practical application development.">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Andes' Portfolio</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+      <nav id="primary-nav" class="nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy reveal fold">
+          <h1>Hi, I'm <span class="accent">Jhomel Andes</span></h1>
+          <h2 class="typed-line reveal">Aspiring <span id="typed-text" class="typed" aria-live="polite"></span><span class="cursor" aria-hidden="true"></span></h2>
+          <p class="lead">BS in Information Technology student with practical experience in software systems, machine learning, and data-driven applications.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card reveal hero-profile-card fold">
+          <div class="hero-card-media" role="img" aria-label="Portrait of Jhomel Andes">
+            <img src="assets/profile.jpg" alt="Portrait of Jhomel Andes" class="hero-profile-image">
+          </div>
+          <div class="hero-card-footer">
+            <p class="card-degree">BS Information Technology</p>
+            <h4 class="card-year">Senior Year</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title reveal">About</h2>
+        <div class="about-grid">
+            <div class="about-text reveal fold">
+            <p>Hello — I'm a BSIT student focused on software engineering, machine learning, and web development. I enjoy solving real-world problems with automation, intelligent systems, and reliable software design.</p>
+            <p>I'm comfortable with Python, web technologies, data modeling, APIs, and machine learning workflows. I also have hands-on networking basics experience with tools like Cisco Packet Tracer and practical ethernet cable setup, including cable crimping and network troubleshooting.</p>
+            <p>I enjoy applying analytical thinking to build scalable, maintainable solutions across both software and web projects.</p>
+          </div>
+          <div class="about-list reveal fold">
+            <h3>Highlights</h3>
+            <ul>
+              <li>Machine Learning Applications</li>
+              <li>Software Architecture</li>
+              <li>Web Development Experience</li>
+              <li>Networking Basics & Packet Tracer</li>
+              <li>Data Modeling & APIs</li>
+              <li>Version Control (Git)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skill-chips reveal fold">
+          <span class="chip">Python</span>
+          <span class="chip">Machine Learning</span>
+          <span class="chip">Data Analysis</span>
+          <span class="chip">APIs</span>
+          <span class="chip">SQL / NoSQL</span>
+          <span class="chip">Software Testing</span>
+          <span class="chip">Git & GitHub</span>
+          <span class="chip">Automation</span>
+          <span class="chip">Cloud Basics</span>
+        </div>
+        <div class="skill-bars reveal fold">
+          <div class="bar">
+            <div class="bar-info"><span>Python</span><span>85%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:85%"></div></div>
+          </div>
+          <div class="bar">
+            <div class="bar-info"><span>Machine Learning</span><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:80%"></div></div>
+          </div>
+          <div class="bar">
+            <div class="bar-info"><span>Data Systems</span><span>75%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="width:75%"></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card reveal fold project-click" data-images="assets/Sonarsight/sonar1.jpg|assets/Sonarsight/sonar2.jpg|assets/Sonarsight/sonar3.jpg|assets/Sonarsight/sonar4.jpg" tabindex="0" role="button" aria-label="Open SonarSight gallery">
+            <div class="project-media"><img src="assets/Sonarsight/sonar1.jpg" alt="SonarSight preview"></div>
+            <div class="project-body">
+              <h3>SonarSight</h3>
+              <p>Android Application with machine learning, including model training and data validation.</p>
+              <div class="project-tags"><span>Python</span><span>ML</span><span>Android</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/TaskFlow/tf1.png|assets/TaskFlow/tf2.png|assets/TaskFlow/tf3.png|assets/TaskFlow/tf4.png|assets/TaskFlow/tf5.png" tabindex="0" role="button" aria-label="Open TaskFLow gallery">
+            <div class="project-media"><img src="assets/TaskFlow/tf1.png" alt="TaskFLow preview"></div>
+            <div class="project-body">
+              <h3>TaskFLow</h3>
+              <p>Responsive web application for task planning and progress management with interactive UI and client-side workflows.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/AeroFeedback/af1.png|assets/AeroFeedback/af2.png|assets/AeroFeedback/af3.png|assets/AeroFeedback/af4.png|assets/AeroFeedback/af5.png|assets/AeroFeedback/af6.png" tabindex="0" role="button" aria-label="Open AeroFeedback gallery">
+            <div class="project-media"><img src="assets/AeroFeedback/af1.png" alt="AeroFeedback preview"></div>
+            <div class="project-body">
+              <h3>AeroFeedback</h3>
+              <p>Web-based feedback dashboard that consumes external APIs for aviation analytics and service reporting.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span><span>API</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/Nailberry/nbs1.png|assets/Nailberry/nbs2.png|assets/Nailberry/nbs3.png|assets/Nailberry/nbs4.png|assets/Nailberry/nbs5.png" tabindex="0" role="button" aria-label="Open NailBerry Salon gallery">
+            <div class="project-media"><img src="assets/Nailberry/nbs1.png" alt="NailBerry Salon preview"></div>
+            <div class="project-body">
+              <h3>NailBerry Salon</h3>
+              <p>Modern salon website featuring service booking and portfolio presentation with a polished responsive layout.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/Ojt Tracker/ot1.png|assets/Ojt Tracker/ot2.png|assets/Ojt Tracker/ot3.png" tabindex="0" role="button" aria-label="Open OJT Tracker gallery">
+            <div class="project-media"><img src="assets/Ojt Tracker/ot1.png" alt="OJT Tracker preview"></div>
+            <div class="project-body">
+              <h3>OJT Tracker</h3>
+              <p>Web application for monitoring OJT progress and attendance, built with API integration for real-time updates.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span><span>API</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/Personal Art Blog/pab1.png|assets/Personal Art Blog/pab2.png" tabindex="0" role="button" aria-label="Open Personal Art Blog gallery">
+            <div class="project-media"><img src="assets/Personal Art Blog/pab1.png" alt="Personal Art Blog preview"></div>
+            <div class="project-body">
+              <h3>Personal Art Blog</h3>
+              <p>Responsive blog-style website showcasing artwork and editorial content with intuitive navigation and layout.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/personal portfolio/pp1.png|assets/personal portfolio/pp2.png" tabindex="0" role="button" aria-label="Open Personal Portfolio gallery">
+            <div class="project-media"><img src="assets/personal portfolio/pp1.png" alt="Personal Portfolio preview"></div>
+            <div class="project-body">
+              <h3>Personal Portfolio</h3>
+              <p>Professional portfolio website delivering a clean, responsive showcase of projects, skills, and contact information.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal fold project-click" data-images="assets/Constructo/c1.png|assets/Constructo/c2.png" tabindex="0" role="button" aria-label="Open Constructo gallery">
+            <div class="project-media"><img src="assets/Constructo/c1.png" alt="Constructo preview"></div>
+            <div class="project-body">
+              <h3>Constructo</h3>
+              <p>Construction services website with custom layout and user-friendly web interaction for project showcases.</p>
+              <div class="project-tags"><span>WebDev</span><span>Html</span><span>Css</span><span>Js</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid reveal fold">
+          <form id="contact-form" class="contact-form" novalidate>
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Your full name">
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="andesjhomel890@gmail.com">
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" required placeholder="Let's work together..."></textarea>
+            </label>
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send Message</button>
+              <button class="btn ghost" type="reset">Reset</button>
+            </div>
+            <p class="form-note">Or email me at <a href="mailto:andesjhomel890@gmail.com">andesjhomel890@gmail.com</a></p>
+          </form>
+
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p>Available for internships, freelance projects, and collaborations.</p>
+            <ul>
+              <li><strong>Email:</strong> andesjhomel890@gmail.com</li>
+              <li><strong>Phone:</strong> +63 968 398 9954</li>
+              <li><strong>Location:</strong> Canumay West, Valenzuela City, Philippines</li>
+            </ul>
+            <div class="socials">
+              <span>Github: Keycsp</span>
+              <span> |  </span>
+              <span>Linkedin: andesjhomel890@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">  
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Andes Jhomel — BSIT Student</p>
+      <p>Software engineering • Machine learning • Practical systems</p>
+    </div>
+  </footer>
+
+  <!-- Gallery modal for project screenshots -->
+  <div id="gallery-modal" class="gallery-modal hidden" aria-hidden="true">
+    <div id="gallery-overlay" class="gallery-overlay"></div>
+    <div class="gallery-content" role="dialog" aria-modal="true" aria-label="Project screenshots">
+      <button id="gallery-close" class="gallery-close" aria-label="Close gallery">×</button>
+      <div class="gallery-main"><img id="gallery-main-img" src="" alt="Project screenshot"></div>
+      <div id="gallery-thumbs" class="gallery-thumbs" aria-hidden="false"></div>
+    </div>
+  </div>
+
+  <div class="decor-shapes" aria-hidden="true">
+    <span class="decor-shape s1"></span>
+    <span class="decor-shape s2"></span>
+    <span class="decor-shape s3"></span>
+    <span class="decor-shape s4"></span>
+    <span class="decor-shape s5"></span>
+    <span class="decor-shape s6"></span>
+    <span class="decor-shape s7"></span>
+    <span class="decor-shape s8"></span>
+  </div>
+  <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">↑</button>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
